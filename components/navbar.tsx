@@ -10,7 +10,7 @@ export default function Navbar() {
     };
 
     return(
-        <nav className="relative bg-white text-black p-3 flex justify-between items-center">
+        <nav className="relative bg-white text-black p-3 flex justify-between items-center z-5">
             {/* Mobile Backdrop Overlay */}
             {isExpanded && (
                 <div 
