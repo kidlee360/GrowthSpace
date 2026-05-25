@@ -16,7 +16,7 @@ export default function Services() {
                     <br />
                     <span className="font-bold text-[40px] md:text-[59px]">to the <span className="text-[#C68313]">wide</span> variety.</span>
                 </p>
-                <p className="text-[15px] mb-4 md:mb-0 md:text-[20px]">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs</p>
+                <p className="text-[15px] mb-4 md:mb-0 md:text-[20px] text-[#555555]">We provide tailored strategies to accelerate your business, from concept to market leadership. Our comprehensive services cover every aspect of digital growth.</p>
                 <div className="grid grid-cols-2 gap-2 mt-3 items-center justify-center">
                     <div className="rounded-[12px] border-[#C68313] border-2 gap-2 flex flex-row items-center justify-center w-[190px] h-[110px] md:w-[254px] md:h-[154px]">
                         <Image src="/idea-icon.svg" alt="idea" width={91} height={91} className="w-[51px] h-[51px] md:h-auto md:w-auto"/>

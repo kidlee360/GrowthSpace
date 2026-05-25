@@ -33,10 +33,8 @@ export default function InfoSection() {
           </h2>
 
           {/* Description */}
-          <p className="mt-8 max-w-md text-base leading-relaxed text-[#555555]">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy
-            text used in laying out print, graphic or web designs.
-            Lorem ipsum, ipsum
+          <p className="mt-8 max-w-md text-base leading-relaxed text-[#555555] text-justify md:text-left">
+            GrowthSpace is a global leader in digital marketing and business development, helping companies thrive across all continents. We connect brands with their audiences worldwide, delivering impactful results and fostering innovation.
           </p>
         </div>
 

@@ -14,8 +14,8 @@ export default function Hero() {
                         We <span className="text-[#C68313]">simplify</span> growth <br />
                         <span className="font-semibold text-[50px] md:text-[80px]">in <span className="text-[#C68313]">growth</span>space.</span>
                     </p>
-                    <p className="text-[15px] mb-4 md:mb-0 md:text-[20px]">
-                        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs
+                    <p className="text-[15px] mb-4 md:mb-0 md:text-[20px] text-[#555555]">
+                        Unlock your full potential with our cutting-edge strategies and innovative solutions. We help businesses of all sizes achieve sustainable growth in the digital era.
                     </p>
                     <div className="flex flex-row gap-4">
                         <button className="rounded-[8px] px-3 py-2 bg-[#C68313] hover:bg-[#A86F0F] font-semibold">Register</button>

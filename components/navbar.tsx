@@ -10,7 +10,7 @@ export default function Navbar() {
     };
 
     return(
-        <nav className="relative bg-white text-black p-3 flex justify-between items-center z-5">
+        <nav className="relative bg-white text-black p-3 flex justify-between items-center z-60">
             {/* Mobile Backdrop Overlay */}
             {isExpanded && (
                 <div 
@@ -51,7 +51,7 @@ export default function Navbar() {
                 <p className="font-semibold text-[26px]">Growth<span className="text-[#C68313]">Space</span></p>
             </div>
             <div className="hidden w-[440px] md:flex justify-between items-center">
-                <a href="#" className="text-[#C68313] hover:text-gray-300 text-[18px] font-medium">Home</a>
+                <a href="/" className="text-[#C68313] hover:text-gray-300 text-[18px] font-medium">Home</a>
                 <a href="#" className=" hover:text-gray-300 text-[18px] font-medium">Services</a>
                 <a href="#" className=" hover:text-gray-300 text-[18px] font-medium">About</a>
                 <a href="#" className=" hover:text-gray-300 text-[18px] font-medium">Contact</a>
