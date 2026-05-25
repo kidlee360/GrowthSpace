@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Outfit } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -33,7 +34,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} flex flex-col min-h-full bg-[#F7F7F7] antialiased overflow-x-hidden`}
     >
-      <body className={`${outfit.className} min-h-full flex flex-col`}>{children}</body>
+      <body className={`${outfit.className} min-h-full flex flex-col`}>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
