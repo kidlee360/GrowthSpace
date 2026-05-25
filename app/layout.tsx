@@ -31,7 +31,8 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} flex flex-col min-h-full bg-[#F7F7F7] antialiased overflow-x-hidden`}
+      style={{ colorScheme: 'light' }}
+      className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} flex flex-col min-h-full bg-[#F7F7F7] text-black antialiased overflow-x-hidden`}
     >
       <body className={`${outfit.className} min-h-full flex flex-col`}>{children}</body>
     </html>

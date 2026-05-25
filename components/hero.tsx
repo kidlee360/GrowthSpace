@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
     return(
         <section className="relative bg-[#F7F7F7] flex flex-col md:flex-row gap-10 md:gap-20 justify-between md:px-25 h-full w-full">
-            <div className="w-full md:h-[716px] md:w-[613px] flex md:flex-col md:gap-[120px] md:pt-[130px] pt-[50px] z-5">
+            <div className="w-full md:h-[716px] md:w-[613px] flex md:flex-col md:gap-[120px] md:pt-[130px] pt-[50px]">
                 <div className="gap-2 flex flex-col items-center text-center md:text-left md:items-start self-start origin-left px-2 md:px-0">
                     <div className="rounded-[8px] bg-[#C68313]/20 w-[140px] h-[30px] md:w-[173px] md:h-[37px] flex items-center justify-center">
                         <p className="text-[#C68313] text-[15px] md:text-[20px] font-medium px-3">High Growth</p>
