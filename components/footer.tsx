@@ -182,7 +182,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="absolute -bottom-60 md:top-3/6 left-0 w-screen aspect-square opacity-60 bg-radial  from-[#C68313] to-[#C68313]/0 rounded-full" />
+      <div className="absolute -bottom-60 md:bottom-auto md:top-3/6 left-0 w-screen aspect-square opacity-60 bg-radial  from-[#C68313] to-[#C68313]/0 rounded-full" />
 
       {/* BOTTOM BAR */}
       <div className="flex h-14 items-center justify-center bg-[#C68313] px-6">
